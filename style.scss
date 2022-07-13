@@ -111,6 +111,14 @@ button{
     }
 }
 
+.certificate{
+    text-align: center;
+    margin-top: 4rem;
+    h1{
+        font-weight: 800;
+    }
+}
+
 .social{
     text-align: center;
     margin-top: 4rem;
@@ -130,8 +138,23 @@ button{
         display: flex;
         flex-direction: column-reverse;
 
+       
+
         h1{
-            margin-top: 2.3rem;
+            margin-top: 1rem;
+            margin-bottom: 0rem;
         }
+
+        
+
     }
-}
+        
+
+        .my-name{
+            
+            margin-top: 0rem;
+        }
+
+
+        
+    }
