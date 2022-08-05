@@ -62,7 +62,7 @@ button{
 .projects{
     text-align: center;
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    
 
 
     h1{
@@ -75,8 +75,20 @@ button{
 
 
 .about{
+    padding: 5rem 0rem;
     text-align: center;
     margin-top: 4rem;
+    background-color: #013240;
+    color: #fff;
+
+    p{
+        font-size: 1.3rem;
+    }
+
+
+    .about-content{
+        align-items: center;
+    }
 
     h1{
         font-weight: 800;
@@ -84,8 +96,8 @@ button{
 
     img{
         margin: 2rem 1rem;
-        height: 200px;
-        border-radius: 10%;
+        height: 350px;
+        border-radius: 3%;
     }
 
     p{
@@ -93,14 +105,21 @@ button{
         text-align: center;
     }
 
-    .skills{
-        font-weight: 800;
-    }
+    
+}
+
+.skills{
+    font-weight: 800;
+    text-align: center;
+    margin-top: 4rem;
 }
 
 .contact{
+    padding: 5rem 0rem;
     text-align: center;
     margin-top: 4rem;
+    background-color: #013240;
+    color: #fff;
 
     h1{
         font-weight: 800;
@@ -153,6 +172,16 @@ button{
         .my-name{
             
             margin-top: 0rem;
+        }
+
+
+        
+
+
+
+        .about-content{
+            flex-direction: column;
+            
         }
 
 
