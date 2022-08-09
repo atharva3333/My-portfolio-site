@@ -52,10 +52,6 @@ h2 {
   height: 100vh;
 }
 
-.main-content .skills {
-  font-weight: 800;
-}
-
 .main-content h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 900 !important;
@@ -148,9 +144,16 @@ button {
 }
 
 .skills {
-  font-weight: 800;
   text-align: center;
   margin-top: 4rem;
+}
+
+.skills .row {
+  margin-top: 6rem;
+}
+
+.skills h1 {
+  font-weight: 800;
 }
 
 .contact {

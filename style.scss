@@ -67,9 +67,7 @@ h2{
    
 
     
-    .skills{
-        font-weight: 800;
-    }
+    
 
     h1{
         font-family: 'Poppins', sans-serif;
@@ -177,10 +175,18 @@ button{
 }
 
 .skills{
-    font-weight: 800;
+    
     text-align: center;
     margin-top: 4rem;
-}
+
+    .row{
+        margin-top: 6rem;
+    }
+    
+        h1{
+            font-weight: 800;
+        }
+    }
 
 .contact{
     padding: 5rem 0rem;
