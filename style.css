@@ -74,7 +74,7 @@ button {
 .projects {
   padding: 5rem 0rem;
   color: #fff;
-  background-color: #EF5455;
+  background-color: #161B21;
   text-align: center;
   padding-top: 4rem;
   margin-left: 0;
@@ -237,6 +237,12 @@ button {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-left: 0;
+  }
+  .projects .row .col-1 {
+    margin-left: 0.1rem !important;
+  }
+  .projects .row .col {
+    margin-left: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
