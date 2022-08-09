@@ -195,6 +195,9 @@ button {
 }
 
 @media (max-width: 576px) {
+  .certificate img {
+    width: 100%;
+  }
   .main-content {
     display: -webkit-box;
     display: -ms-flexbox;
