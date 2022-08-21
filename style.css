@@ -87,9 +87,10 @@ button {
 
 .projects .row .col .card-projects {
   background-color: #fff;
-  height: 19rem;
+  height: 20rem;
   width: 20rem;
   text-align: center;
+  padding-bottom: 1.5rem;
 }
 
 .projects .row .col .card-projects p {
@@ -106,7 +107,7 @@ button {
 
 .projects .row .col .card-projects h6 {
   padding-top: 2rem;
-  color: blue;
+  color: #06283D;
 }
 
 .projects h1 {

@@ -32,7 +32,7 @@ a:hover{
     color: black;
     border-color: black;
     border: 1px solid black;
-    ;
+    
 
 
    
@@ -107,12 +107,14 @@ button{
             
             
             .card-projects{
-                
+
+               
                 
                 background-color: #fff;
-                height: 19rem;
+                height: 20rem;
                 width: 20rem;
                 text-align: center;
+                padding-bottom: 1.5rem;
 
                 p{
                     color: #292826;
@@ -128,7 +130,7 @@ button{
 
                 h6{
                     padding-top: 2rem;
-                    color: blue;
+                    color: #06283D;
                 }
             }
         }
