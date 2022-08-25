@@ -54,7 +54,7 @@
 
             <h1>MY PROJECTS</h1>
 
-            
+
 
 
             <h2>React Websites</h2>
@@ -74,7 +74,7 @@
 
                     <div class="col">
                         <div class="card-projects shadow">
-                          
+
                             <h6>CRUD operations in Rest API</h6>
                             <p>In this react app you can perform CRUD (Creat, Read, Update, Delete) operations using
                                 Mock API.</p>
@@ -85,7 +85,7 @@
                         </div>
                     </div>
 
-                    </div>
+                </div>
 
             </div>
 
@@ -219,10 +219,10 @@
                 <div class="col"><img src="https://img.icons8.com/plasticine/96/000000/react.png" /></div>
                 <div class="col"><img src="https://img.icons8.com/fluency/96/000000/node-js.png" /></div>
                 <div class="col"><img src="https://img.icons8.com/cute-clipart/96/000000/figma.png" /></div>
-                <div class="col"><img src="https://img.icons8.com/color/96/000000/git.png"/></div>
-                <div class="col"><img src="https://img.icons8.com/fluency/96/000000/github.png"/></div>
-                <div class="col"><img src="https://img.icons8.com/color/96/000000/tailwind_css.png"/></div>
-                <div class="col"><img src="https://img.icons8.com/color/96/000000/bootstrap.png"/></div>
+                <div class="col"><img src="https://img.icons8.com/color/96/000000/git.png" /></div>
+                <div class="col"><img src="https://img.icons8.com/fluency/96/000000/github.png" /></div>
+                <div class="col"><img src="https://img.icons8.com/color/96/000000/tailwind_css.png" /></div>
+                <div class="col"><img src="https://img.icons8.com/color/96/000000/bootstrap.png" /></div>
             </div>
 
 
@@ -265,7 +265,21 @@
 
 
     <!-- JavaScript Bundle with Popper -->
-    <script src="index.js"></script>
+    <script>
+        const cursor = document.querySelector('.cursor');
+
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top: " + (e.pageY - 15) + "px; left: " + (e.pageX - 15) + "px");
+        });
+
+        document.addEventListener('click', () => {
+            cursor.classList.add("expand");
+
+            setTimeout(() => {
+                cursor.classList.remove("expand");
+            }, 500)
+        })
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
